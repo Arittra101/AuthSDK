@@ -1,7 +1,7 @@
 package com.bachelors.authsdk.callback
 
-import com.bachelors.authsdk.data.AuthError
-import com.bachelors.authsdk.data.AuthSuccessResult
+import com.bachelors.authsdk.data.response.AuthError
+import com.bachelors.authsdk.data.response.AuthSuccessResult
 
 interface AuthSdkCallback {
     fun onSuccess(result: AuthSuccessResult)
